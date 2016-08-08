@@ -1,0 +1,61 @@
+.all{
+  margin-top: 50px;
+  width: 100%;
+}
+  p{
+    margin: 0px;
+  }
+  .random{
+    display: inline;
+  }
+
+  .float-left{
+    float: left;
+    /*margin-left: 45px;*/
+  }
+  .float-right{
+    float: right;
+    /*margin-right: 45px;*/
+  }
+  .name{
+    margin: 10px 0px 0px 8px;
+  }
+  .game{
+    margin: 0px 0px 0px 8px;
+  }
+  .status{
+    margin: 0px;
+  }
+  div.results{
+    margin-top: 20px;
+  }
+  ul li.result{
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+  }
+  ul li.result:hover{
+    box-shadow: -4px 0 0 0 #000000;
+  }
+  ul.result-list{
+    display: block;
+  }
+  div.result-box > img{
+    float: left;
+    background-color: #ccc;
+    height: auto;
+  }
+  div.result-box{
+    /*padding: 5px;*/
+    margin: 5px 5px 0px 0px;
+  }
+  a.result{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+  }
+  a.result:hover{
+    text-decoration: none;
+    color: black;
+  }
